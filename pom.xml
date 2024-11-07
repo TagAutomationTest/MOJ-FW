@@ -1,0 +1,92 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>MOJ-FW</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - MOJ-FW</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <selenium.version>4.14.1</selenium.version>
+    <cucumber.version>7.7.0</cucumber.version>
+    <aspectj.version>1.9.6</aspectj.version>
+    <allure.version>2.14</allure.version>
+    <log4j.version>1.2.17</log4j.version>
+    <hamcrest.version>2.2</hamcrest.version>
+    <lombok.version>1.18.34</lombok.version>
+    <json.version>1.1.1</json.version>
+    <restassured.version>5.4.0</restassured.version>
+    <Selenium.version>4.18.1</Selenium.version>
+    <testNG.version>7.7.0</testNG.version>
+    <allure-cucumber7.version>2.20.1</allure-cucumber7.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-cucumber7-jvm</artifactId>
+      <version>${allure-cucumber7.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-testng</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+    <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+      <version>${json.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>${testNG.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version>
+    </dependency>
+    <!--Hamcrest Dependency-->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>${hamcrest.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>${restassured.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${log4j.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+</project>
