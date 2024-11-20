@@ -33,14 +33,15 @@ public class Helper {
                         driver = new FirefoxDriver(firefoxOptions);
                         break;
                 }
+                assert driver != null;
+                driver.manage().window().maximize();
             }
-            driver.manage().window().maximize();
+
         } catch (Exception e) {
             throw new Exception(e + "Failure during intialize driver");
         }
         return driver;
     }
-
     public void SetEnvBaseUrl(String EnvName) {
         switch (EnvName) {
             case "Testing":
