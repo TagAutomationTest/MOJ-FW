@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import java.io.FileReader;
+import java.sql.*;
 import java.util.List;
 
 public class Helper {
@@ -162,5 +163,7 @@ public class Helper {
         // Perform the hover action
         actions.moveToElement(findElement(locator)).perform();
     }
-}
+
+    }
+
 

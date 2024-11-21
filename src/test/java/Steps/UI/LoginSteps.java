@@ -37,6 +37,7 @@ public class LoginSteps {
     @Given("intializedriver")
     public void SetupDriver(List<Map<String,String>>datatable) throws Exception {
         try{
+
             for(Map<String,String>BrowserList:datatable){
                 Browser=BrowserList.get("Browser");
                 Helper.getDriver(Browser);
@@ -86,7 +87,7 @@ public class LoginSteps {
 
         }
     }
-   // @After
+    //@After
     public void afterScenario(Scenario scenario) {
         try {
             String screenshotName = scenario.getName();

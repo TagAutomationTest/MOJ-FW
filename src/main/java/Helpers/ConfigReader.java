@@ -1,6 +1,7 @@
 package Helpers;
 
 import java.io.*;
+import java.sql.*;
 import java.util.Map;
 import java.util.Properties;
 
@@ -8,7 +9,6 @@ public class ConfigReader {
    static  String CsvfilePath;
     static FileWriter fileWriter;
     static BufferedWriter bufferedWriter;
-
     public static void ExportCSvWritter( Map<String, Long> apiResponseTimes) {
         try {
 
@@ -61,5 +61,25 @@ public class ConfigReader {
         return properties.getProperty(key);
     }
 
+    public void setProperty(String key, String value) {
+        properties.setProperty(key, value);
+        try (FileOutputStream output = new FileOutputStream(filePath)) {
+            properties.store(output, "Updated property: " + key);
+            System.out.println("Property " + key + " set to " + value);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public void saveProperty(String key, String value) {
+        properties.setProperty(key, value);
+        try (FileOutputStream output = new FileOutputStream(filePath)) {
+            properties.store(output, "Updated property: " + key);
+            System.out.println("Property " + key + " saved with value: " + value);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-}
+    }
+
+
