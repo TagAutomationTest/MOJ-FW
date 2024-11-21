@@ -160,11 +160,12 @@ public class CRInquirySteps {
     public void validateThatCrInquiryStatus(String CRStatus) throws Exception {
         try {
             if (ThirdpartyName.equalsIgnoreCase("Takamol")) {
-                Assert.assertTrue(response.jsonPath().get("data.CRStatus").toString().equalsIgnoreCase(CRStatus));
+                Assert.assertTrue(response.jsonPath().get("data.CRStatus").toString().equalsIgnoreCase(CRStatus) ,"The CR status returned is "+response.jsonPath().get("data.CRStatus") +" and it expected to be "+CRStatus);
             }
             else {
 
-                Assert.assertTrue(response.jsonPath().get("data.crStatus").toString().equalsIgnoreCase(CRStatus));
+                Assert.assertTrue(response.jsonPath().get("data.crStatus").toString().equalsIgnoreCase(CRStatus)
+                ,"The CR status returned is "+response.jsonPath().get("data.crStatus") +" and it expected to be "+CRStatus);
             }
 
         } catch (Exception e) {
