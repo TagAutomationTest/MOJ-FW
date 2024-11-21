@@ -24,8 +24,8 @@ Feature: Get CR information By Cr Number
     And validate that status code is 200 Ok
     And Extract access token from Login API
     Then Get CR information By CR Number
-      | CR-Number  |
-      | 1010397787 |
+      | CR-Number  |ThirdPartyName |
+      | 1010397787 |takamol        |
     And validate that response return all CR information
     And validate that response show status "expired"
 
@@ -38,7 +38,7 @@ Feature: Get CR information By Cr Number
     And validate that status code is 200 Ok
     And Extract access token from Login API
     Then Get CR information By CR Number
-      | CR-Number  |
-      | 1010768705 |
+      | CR-Number  |ThirdPartyName |
+      | 1010768705 |takamol        |
     And validate that response return all CR information
     And validate that response show status "cancelled"

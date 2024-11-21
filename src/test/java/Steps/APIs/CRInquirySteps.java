@@ -61,9 +61,6 @@ public class CRInquirySteps {
                         TakamolPasssword = reader.getProperty("Takamol_Passw0rd_Live");
 
                         //  Portal
-                        OcpBaseUrl =
-                                PortalUserName = reader.getProperty("");
-                        PortalPassword = reader.getProperty("");
                         break;
 
                 }
@@ -124,7 +121,8 @@ public class CRInquirySteps {
                             .log().all()
                             .get(TakamolBaseUrl + reader.getProperty("CRinquiryPath"))
                             .then().log().all().extract().response();
-                    Assert.assertTrue(response.getStatusCode() == 200, "GetCRinformation API didn't pass");
+                    Assert.assertTrue(response.getStatusCode() == 200,
+                            "GetCRinformation API didn't pass");
                     break;
 
                 case "OcpPortal":
@@ -138,7 +136,7 @@ public class CRInquirySteps {
                     break;
             }
         } catch (Exception e) {
-            throw new Exception("Failure during extract token ");
+            throw new Exception(e+"Failure during extract token ");
         }
     }
 
@@ -146,18 +144,31 @@ public class CRInquirySteps {
     @And("validate that response return all CR information")
     public void validateCrInquiryResponse() throws Exception {
         try {
-            Assert.assertEquals(response.jsonPath().get("data.CRNumber"), CRnumber);
+            if (ThirdpartyName.equalsIgnoreCase("Takamol")) {
+                Assert.assertEquals(response.jsonPath().get("data.CRNumber"), CRnumber);
+            }
+            else {
+
+                Assert.assertEquals(response.jsonPath().get("data.CRNumber"), CRnumber);
+            }
         } catch (Exception e) {
-            throw new Exception("Failure during validate CrInquiry Response ");
+            throw new Exception(e+"Failure during validate CrInquiry Response ");
         }
     }
 
     @And("validate that response show status {string}")
     public void validateThatCrInquiryStatus(String CRStatus) throws Exception {
         try {
-            Assert.assertTrue(response.jsonPath().get("data.CRStatus").toString().equalsIgnoreCase(CRStatus));
+            if (ThirdpartyName.equalsIgnoreCase("Takamol")) {
+                Assert.assertTrue(response.jsonPath().get("data.CRStatus").toString().equalsIgnoreCase(CRStatus));
+            }
+            else {
+
+                Assert.assertTrue(response.jsonPath().get("data.crStatus").toString().equalsIgnoreCase(CRStatus));
+            }
+
         } catch (Exception e) {
-            throw new Exception("Failure during validate CrInquiry Response ");
+            throw new Exception(e +"Failure during validate CrInquiry Response ");
         }
     }
 

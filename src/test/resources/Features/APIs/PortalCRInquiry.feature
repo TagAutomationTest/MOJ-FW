@@ -1,6 +1,5 @@
 Feature: Get CR information By Cr Number for OCP
-
-  @CRInquirytt
+  @CRInquiry
   Scenario:As a OCP user,I want to Inquire and Get information for OCP Commercial Register
     Given Set the Environment
       | EnvironmrntType |
