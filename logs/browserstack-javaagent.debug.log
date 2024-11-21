@@ -1,0 +1,382 @@
+14:23:04.499 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:23:04.728 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+14:23:04.729 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+14:23:04.910 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^As a OCP user\,I want to Inquire and Get information for \<active\> Commercial Register$ --glue Steps.APIs D:/Ahmed Tag/Automation/Automation Java/GitHub/MOJ-FW/src/test/resources/Features/APIs/CRInformationByCRNumbe.feature
+14:23:04.911 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+14:23:04.916 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: cucumber
+14:23:04.958 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+14:23:04.958 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+14:23:04.958 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.4
+14:23:04.961 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+14:23:04.961 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+14:23:04.961 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+14:23:04.961 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+14:23:10.021 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUBS NOT ALLOCATED - java.util.NoSuchElementException
+14:23:10.061 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RUpmT8yq4gUpq23u7z1M","userName":"ahmedtag_aEcOB3","event_properties":{"product":"[automate]","buildName":"browserstack build1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"9.3.0","frameworkDetectionInstrumentation":{"parseLoadClass":3,"parseDependencies":42},"language":"java","sdkRunId":"747d3ee1-fa13-4dec-af1d-d6f62278a8b7","buildIdentifier":"#1","userFramework":"cucumber-testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"cucumber-testng-javaagent\/1.26.4","hostname":"LAPTOP-OCOURN67","language_framework":"java_cucumber-testng","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+14:23:26.207 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS NOT FOUND - java.net.ConnectException: Failed to connect to hub.browserstack.com/103.126.7.239:443
+14:23:40.810 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+14:23:40.818 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+14:23:40.826 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+14:23:40.826 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 107
+14:23:40.826 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 107
+14:24:26.939 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:24:27.129 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+14:24:27.130 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+14:24:27.305 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket61172 @w@C:\Users\Atag\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Atag\AppData\Local\Temp\idea_testng.tmp
+14:24:27.305 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+14:24:27.310 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+14:24:27.349 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+14:24:27.349 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+14:24:27.349 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.4
+14:24:27.351 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+14:24:27.351 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+14:24:27.351 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+14:24:27.351 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+14:24:32.404 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUBS NOT ALLOCATED - java.util.NoSuchElementException
+14:24:32.441 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RUpmT8yq4gUpq23u7z1M","userName":"ahmedtag_aEcOB3","event_properties":{"product":"[automate]","buildName":"browserstack build1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"9.3.0","frameworkDetectionInstrumentation":{"parseLoadClass":3,"parseDependencies":39},"language":"java","sdkRunId":"85cf7674-38de-40fb-b04f-50e46abae956","buildIdentifier":"#2","userFramework":"cucumber-testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"cucumber-testng-javaagent\/1.26.4","hostname":"LAPTOP-OCOURN67","language_framework":"java_cucumber-testng","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+14:24:48.608 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS NOT FOUND - java.net.ConnectException: Failed to connect to hub.browserstack.com/103.126.7.239:443
+14:25:14.586 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to api.browserstack.com/104.19.162.75:443
+14:25:14.586 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - 
+14:25:23.685 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+14:25:23.685 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1404
+14:25:23.685 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 1404
+14:26:05.906 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 17_Nov_1424_LAPTOP_OCOURN67_fd5P
+14:26:27.064 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+14:26:27.066 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+14:26:27.073 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+14:26:27.074 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 65
+14:26:27.074 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 65
+14:27:09.236 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability Stop request failed. Retrying.. Exception: com.browserstack.testOps.RequestException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+	at com.browserstack.testOps.RequestUtils.makeRequest(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy2.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+Caused by: java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+	at browserstack.shaded.okhttp3.internal.connection.RealConnection.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.RealConnection.connect(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.Transmitter.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ConnectInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.cache.CacheInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.BridgeInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.RealCall.getResponseWithInterceptorChain(Unknown Source)
+	at browserstack.shaded.okhttp3.RealCall.execute(Unknown Source)
+	... 10 more
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at browserstack.shaded.okhttp3.internal.platform.Platform.connectSocket(Unknown Source)
+	... 29 more
+
+14:27:51.335 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+14:27:51.336 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+14:27:51.336 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 65
+14:27:51.336 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 65
+14:28:33.508 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-17T11:28:33.507713100Z][ TESTHUB ] Exception in stop build request : com.browserstack.testOps.RequestException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+	at com.browserstack.testOps.RequestUtils.makeRequest(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy2.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+Caused by: java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+	at browserstack.shaded.okhttp3.internal.connection.RealConnection.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.RealConnection.connect(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.Transmitter.a(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.connection.ConnectInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.cache.CacheInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.BridgeInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)
+	at browserstack.shaded.okhttp3.RealCall.getResponseWithInterceptorChain(Unknown Source)
+	at browserstack.shaded.okhttp3.RealCall.execute(Unknown Source)
+	... 10 more
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at browserstack.shaded.okhttp3.internal.platform.Platform.connectSocket(Unknown Source)
+	... 29 more
+
+
+14:29:15.577 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+14:29:15.578 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+14:29:15.611 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+14:29:15.612 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+14:29:15.618 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+14:29:15.620 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+14:29:15.670 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RUpmT8yq4gUpq23u7z1M","userName":"ahmedtag_aEcOB3","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"85cf7674-38de-40fb-b04f-50e46abae956","buildIdentifier":"#2","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-OCOURN67","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":0,"sentCount":0},"finished":{"triggeredCount":0,"failedCount":0,"errors":[],"sentCount":0}},"logEvents":{"errors":[],"failedCount":0,"triggeredCount":0,"sentCount":0},"testEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":0,"sentCount":0},"finished":{"triggeredCount":0,"failedCount":0,"errors":[],"sentCount":0}},"batchEvents":{"triggeredCount":0,"failedCount":0,"errors":[],"sentCount":0},"cbtSessionEvents":{"errors":[],"failedCount":0,"triggeredCount":0,"sentCount":0},"buildEvents":{"started":{"error":"com.browserstack.testOps.RequestException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443 Caused By java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443","status":"failed","triggered":true},"finished":{"error":"com.browserstack.testOps.RequestException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443 Caused By java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443","status":"failed","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"17_Nov_1424_LAPTOP_OCOURN67_fd5P","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"device":null,"browser":"Chrome","os":"OS X","capabilities":{},"browserVersion":"latest","osVersion":"Big Sur","platformCaps":{"os":"OS X","osVersion":"Big Sur","browserVersion":"latest","browserName":"Chrome"},"platformString":"OS X, Big Sur, Chrome, latest","customVariables":"****"},{"device":null,"browser":"Edge","os":"Windows","capabilities":{},"browserVersion":"latest","osVersion":"10","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Edge"},"platformString":"Windows, 10, Edge, latest","customVariables":"****"},{"device":"Samsung Galaxy S22 Ultra","browser":"chrome","os":null,"capabilities":{"deviceName":"Samsung Galaxy S22 Ultra"},"browserVersion":null,"osVersion":"12.0","platformCaps":{"osVersion":12.0,"browserName":"chrome","deviceName":"Samsung Galaxy S22 Ultra"},"platformString":"Samsung Galaxy S22 Ultra, 12.0, chrome","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"cucumber-testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"browserstack build1","globalException":"Initialization of BrowserStack Local failed Error trying to download BrowserStackLocal binary.","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"9.3.0","frameworkDetectionInstrumentation":{"parseLoadClass":3,"parseDependencies":39},"userFramework":"cucumber-testng","detectedDependencies":"cucumber, testng","referrer":"cucumber-testng-javaagent\/1.26.4","locationTrigger":"BSTACK_BUILD_END","language_framework":"java_cucumber-testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+14:29:57.801 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to api.browserstack.com/104.19.162.75:443
+14:29:57.802 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - 
+14:29:57.819 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+14:29:57.820 [Thread-0] DEBUG c.b.utils.CucumberUtilityMethods - Error in deleting cucumber json reports in shutdown hook - java.lang.NullPointerException: Cannot invoke "java.util.Map.entrySet()" because "<parameter1>" is null
+14:30:39.932 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Execute API call to get build details failed - java.net.ConnectException: Failed to connect to api.browserstack.com/104.19.162.75:443
+10:47:54.895 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:47:55.135 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+10:47:55.135 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+10:47:55.302 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket65301 @w@C:\Users\Atag\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Atag\AppData\Local\Temp\idea_testng.tmp
+10:47:55.302 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+10:47:55.307 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+10:47:55.354 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+10:47:55.354 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+10:47:55.354 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.4
+10:47:55.357 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+10:47:55.357 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+10:47:55.357 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+10:47:55.357 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+10:48:00.419 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUBS NOT ALLOCATED - java.util.NoSuchElementException
+10:48:00.454 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RUpmT8yq4gUpq23u7z1M","userName":"ahmedtag_aEcOB3","event_properties":{"product":"[automate]","buildName":"browserstack build1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"9.3.0","frameworkDetectionInstrumentation":{"parseLoadClass":3,"parseDependencies":46},"language":"java","sdkRunId":"caa42d70-a0bb-4d11-af9e-3fc14e21fa0f","buildIdentifier":"#3","userFramework":"cucumber-testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"cucumber-testng-javaagent\/1.26.4","hostname":"LAPTOP-OCOURN67","language_framework":"java_cucumber-testng","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+10:48:16.606 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS NOT FOUND - java.net.ConnectException: Failed to connect to hub.browserstack.com/103.126.7.239:443
+10:48:36.011 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+10:48:36.019 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:48:36.026 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+10:48:36.026 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 107
+10:48:36.026 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 107
+10:50:39.251 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:50:41.957 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T07:50:41.956384800Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+10:51:24.161 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+10:51:24.161 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+10:53:00.380 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:53:03.565 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T07:53:03.564585600Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+10:53:45.746 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/54.165.250.51:443
+10:53:45.747 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+10:55:38.342 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:55:41.427 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T07:55:41.427182700Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+10:56:23.745 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/54.165.250.51:443
+10:56:23.746 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+10:59:46.645 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:59:47.403 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T07:59:47.402607800Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+11:00:28.675 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:00:29.427 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T08:00:29.426424Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+11:01:11.617 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/54.165.250.51:443
+11:01:11.618 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+11:02:47.917 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:04:29.417 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T08:04:29.415088900Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+11:05:11.718 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+11:05:11.719 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+16:48:46.624 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:48:47.681 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T13:48:47.678433800Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+16:49:14.285 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:49:15.204 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T13:49:15.202371300Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+16:49:54.407 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:49:55.344 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-20T13:49:55.342494300Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+
+16:50:37.696 [main] DEBUG c.b.utils.FunnelInstrumentation - API Request failed - java.net.ConnectException: Failed to connect to collector-observability.browserstack.com/52.54.166.47:443
+16:50:37.697 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - 
+16:51:51.243 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:55:10.409 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
