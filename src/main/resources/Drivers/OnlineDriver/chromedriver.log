@@ -1,0 +1,154 @@
+[1732354826.305][INFO]: Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 22662
+[1732354826.305][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1732354826.311][INFO]: ChromeDriver was started successfully on port 22662
+[1732354826.418][INFO]: [eac8ad3f32b40b4fe936442034360b72] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         }
+      } ]
+   }
+}
+[1732354826.420][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1732354826.421][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1732354826.423][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1732354826.423][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1732354826.424][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Atag\AppData\Local\Temp\scoped_dir17628_1620688974" data:,
+[1732354827.200][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1732354827.286][INFO]: [eac8ad3f32b40b4fe936442034360b72] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "131.0.6778.86",
+      "chrome": {
+         "chromedriverVersion": "131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})",
+         "userDataDir": "C:\\Users\\Atag\\AppData\\Local\\Temp\\scoped_dir17628_1620688974"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56973"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "eac8ad3f32b40b4fe936442034360b72"
+}
+[1732354827.429][INFO]: [eac8ad3f32b40b4fe936442034360b72] COMMAND MaximizeWindow {
+}
+[1732354827.429][INFO]: Waiting for pending navigations...
+[1732354827.431][INFO]: Done waiting for pending navigations. Status: ok
+[1732354827.461][INFO]: Waiting for pending navigations...
+[1732354827.462][INFO]: Done waiting for pending navigations. Status: ok
+[1732354827.462][INFO]: [eac8ad3f32b40b4fe936442034360b72] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1732354827.479][INFO]: [eac8ad3f32b40b4fe936442034360b72] COMMAND DeleteAllCookies {
+}
+[1732354827.479][INFO]: Waiting for pending navigations...
+[1732354827.480][INFO]: Done waiting for pending navigations. Status: ok
+[1732354827.486][INFO]: Waiting for pending navigations...
+[1732354827.486][INFO]: Done waiting for pending navigations. Status: ok
+[1732354827.487][INFO]: [eac8ad3f32b40b4fe936442034360b72] RESPONSE DeleteAllCookies
+[1732354827.491][INFO]: [eac8ad3f32b40b4fe936442034360b72] COMMAND Navigate {
+   "url": "https://rapstg.moj.gov.local:2030/"
+}
+[1732354827.491][INFO]: Waiting for pending navigations...
+[1732354827.491][INFO]: Done waiting for pending navigations. Status: ok
+[1732354827.781][INFO]: Waiting for pending navigations...
+[1732354827.784][INFO]: Done waiting for pending navigations. Status: ok
+[1732354827.784][INFO]: [eac8ad3f32b40b4fe936442034360b72] RESPONSE Navigate ERROR unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.86)
+[1732354835.827][INFO]: [eac8ad3f32b40b4fe936442034360b72] COMMAND Screenshot {
+}
+[1732354835.827][INFO]: Waiting for pending navigations...
+[1732354835.828][INFO]: Done waiting for pending navigations. Status: ok
+[1732354835.996][INFO]: Waiting for pending navigations...
+[1732354835.997][INFO]: Done waiting for pending navigations. Status: ok
+[1732354835.997][INFO]: [eac8ad3f32b40b4fe936442034360b72] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAANPCAIAAAC0MVXjAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X90ldWdL/7NDxuHmWaWTkOPGpZXifO9gtZJjIwwnSmsXBUYGvxtW4Whyg9DqdUqQr2ZL800Q0Hb2loKGMAvY2hnFB0BGRCdfGHuWKE0JkstsDo3mTt+iXgk7..."
+[1732354842.849][INFO]: [eac8ad3f32b40b4fe936442034360b72] COMMAND Quit {
+}
+[1732354842.971][INFO]: [eac8ad3f32b40b4fe936442034360b72] RESPONSE Quit

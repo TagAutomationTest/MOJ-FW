@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features",
         glue = "Steps",
         monochrome=true,
-        tags= ("not @ignore and @CRInquiry"),
+        tags= ("not @ignore"),
         plugin = {
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                 "html:target/cucumber-reports/cucumber-pretty",

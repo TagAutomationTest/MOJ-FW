@@ -3,8 +3,8 @@ Feature: Login to RAP
   @login
   Scenario:As an RAP-Usrt,I want to login
     Given intializedriver
-      | Browser |
-      | Chrome  |
+      | Browser | Setup Type |
+      | Chrome  | Online      |
     And Set Environment
       | EnvironmrntType |
       | Staging         |

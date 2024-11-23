@@ -6,28 +6,49 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
+
+import java.io.File;
 import java.io.FileReader;
+import java.nio.file.Paths;
 import java.sql.*;
 import java.util.List;
 
 public class Helper {
-    ConfigReader reader=new ConfigReader();
+    static ConfigReader reader=new ConfigReader();
 
     @Getter
     private static WebDriver driver;
     @Getter
     String Url;
     static String values;
+    static String driverPath;
+    static String OnlinedriverPath;
+    static  ChromeDriverService service;
 
-    public static WebDriver getDriver(String BrowserName) throws Exception {
+    public static WebDriver getDriver(String BrowserName,String SetupType) throws Exception {
         try {
+            driverPath= System.getProperty("user.dir")+"/src/main/resources/Drivers/chromedriver.exe";
+            OnlinedriverPath= System.getProperty("user.dir")+"/src/main/resources/Drivers/OnlineDriver";
             if (driver == null) {
                 switch (BrowserName) {
                     case "Chrome":
-                        driver = new ChromeDriver();
+                        if (SetupType.equalsIgnoreCase("Local")){
+
+                            System.setProperty("webdriver.chrome.driver",
+                                     System.getProperty(driverPath));
+                            driver = new ChromeDriver();
+                        }
+                        else {
+                           service = new ChromeDriverService.Builder()
+                                  .withLogFile(Paths.get(OnlinedriverPath, "chromedriver.log").toFile())
+                                   // .usingPort(12345)
+                                   .build();
+                            driver = new ChromeDriver(service);
+                        }
                         break;
                     case "Firefox":
                         FirefoxOptions firefoxOptions = new FirefoxOptions();
@@ -63,7 +84,7 @@ public class Helper {
     public void OpenuRL(String Url) {
         try {
             driver.manage().deleteAllCookies();
-            driver.manage().window().maximize();
+            //driver.manage().window().maximize();
             driver.get(Url);
         } catch (Exception e) {
             throw e;

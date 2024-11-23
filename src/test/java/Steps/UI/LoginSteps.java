@@ -12,8 +12,6 @@ import org.json.simple.JSONObject;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import Pages.LoginPage;
-import org.testng.Assert;
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -32,6 +30,7 @@ public class LoginSteps {
     String OTP3;
     String OTP4;
     String Browser;
+    String Setup_Type;
     String Env;
 
     @Given("intializedriver")
@@ -40,7 +39,8 @@ public class LoginSteps {
 
             for(Map<String,String>BrowserList:datatable){
                 Browser=BrowserList.get("Browser");
-                Helper.getDriver(Browser);
+                Setup_Type=BrowserList.get("Setup Type");
+                Helper.getDriver(Browser,Setup_Type);
             }
         } catch (Exception e) {
             throw e;
@@ -63,7 +63,7 @@ public class LoginSteps {
     @Then("Login to RAP portal")
     public void LoginToOcp(List<Map<String, String>> datatable) throws Exception {
         try {
-            Assert.fail("Test Allure");
+           // Assert.fail("Test Allure");
             JSONObject jsonObj = new JSONObject();
             for (Map<String, String> Logincredentils : datatable) {
                 UserName = Logincredentils.get("username");
@@ -87,13 +87,20 @@ public class LoginSteps {
 
         }
     }
-    //@After
+    @After
     public void afterScenario(Scenario scenario) {
         try {
             String screenshotName = scenario.getName();
-            if (scenario.isFailed()) {
-                byte[] Screenshot = ((TakesScreenshot) Helper.getDriver()).getScreenshotAs(OutputType.BYTES);
+            byte[] Screenshot = ((TakesScreenshot) Helper.getDriver()).getScreenshotAs(OutputType.BYTES);
+            switch (scenario.getStatus()) {
+                case UNDEFINED:
+                case PENDING:
+                case SKIPPED:
+                case FAILED:
+                case PASSED:
                 Allure.addAttachment(screenshotName, new ByteArrayInputStream(Screenshot));
+                break;
+
             }
           //AllureOpen();
             Helper.getDriver().quit();
