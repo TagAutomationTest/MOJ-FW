@@ -13,13 +13,11 @@
     <aspectj.version>1.9.6</aspectj.version>
     <allure.version>2.14</allure.version>
     <log4j.version>1.2.17</log4j.version>
-    <hamcrest.version>2.2</hamcrest.version>
     <lombok.version>1.18.34</lombok.version>
     <json.version>1.1.1</json.version>
     <restassured.version>5.4.0</restassured.version>
     <testNG.version>7.10.2</testNG.version>
     <allure-cucumber7.version>2.20.1</allure-cucumber7.version>
-    <appium.version>9.3.0</appium.version>
     <mySql.version>8.0.33</mySql.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
