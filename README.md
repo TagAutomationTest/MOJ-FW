@@ -35,7 +35,7 @@ This repository contains an automation framework built with Selenium WebDriver, 
 - **Feature 5**: Read data from feature data table
 - **Feature 6**: Allure report integeration
 - **Feature 7**: Connect on SQL DB using JDBC driver
-- **Feature 8**: get and set properties from Configuration file
+- **Feature 8**: Get and Set properties from Configuration file
 - **Feature 9**: Page object design pattern
 
 ---
@@ -45,24 +45,25 @@ This repository contains an automation framework built with Selenium WebDriver, 
 ### Prerequisites:
 - [Java](https://www.guru99.com/install-java.html) should be installed and configured.
 - [Maven](https://mkyong.com/maven/how-to-install-maven-in-windows/) should be installed and configured.
+- Download the files from Git repository either as zip file OR using [Git](https://phoenixnap.com/kb/how-to-install-git-windows).
+- Download and install [Allure](https://allurereport.org/docs/install-for-windows/) commandline application, suitable for your environment.
   
 ### Steps to Install:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/project-name.git
+    git clone [https://github.com/TagAutomationTest/MOJ-FW.git]
     ```
-2. Navigate into the project directory:
+2. Navigate into the project directory, Run below commands to Install dependencies.
     ```bash
-    cd project-name
+     mvn clean install
     ```
-3. Install dependencies (if applicable):
+3. Run tests using below command.
     ```bash
-    npm install    # For Node.js projects
-    pip install -r requirements.txt  # For Python projects
-    mvn install    # For Java projects with Maven
+    mvn test
     ```
-4. Any other necessary installation steps here...
-
+4. Allure Report: To generate the report we need to go through below steps.
+```bash
+allure serve target/allure-results 
 ---
 
 ## Usage
