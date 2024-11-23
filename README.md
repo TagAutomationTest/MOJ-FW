@@ -1,8 +1,36 @@
-# MOJ-Framework
+# Ahmed-tag-Framework
 
 This is an automation framwork created to automate web and Apis .
 
-
+### Technologies Used:
+- **Language(s)**: Java
+- **Frameworks**: Selenium, Restassured, CucumberTestNG, Allure, log4j, lombok.
+- **Libraries**:important libraries or dependencies used in the project.
+ 
+    <maven.compiler.source>21</maven.compiler.source>.
+  
+    <maven.compiler.target>21</maven.compiler.target>.
+  
+    <selenium.version>4.26.0</selenium.version>.
+  
+    <cucumber.version>7.7.0</cucumber.version>.
+  
+    <allure.version>2.14</allure.version>.
+  
+    <log4j.version>1.2.17</log4j.version>.
+  
+    <lombok.version>1.18.34</lombok.version>.
+  
+    <json.version>1.1.1</json.version>.
+  
+    <restassured.version>5.4.0</restassured.version>.
+  
+    <testNG.version>7.10.2</testNG.version>.
+  
+    <allure-cucumber7.version>2.20.1</allure-cucumber7.version>.
+  
+    <mySql.version>8.0.33</mySql.version>.
+  
 
 ## Table of Contents
 
